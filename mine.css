@@ -1,0 +1,56 @@
+@font-face {
+    font-family: iranSans;
+    src: url("IRANSansWeb(FaNum).ttf") format("opentype"),
+    url("IRANSansWeb(FaNum)_Bold.ttf") format("opentype"),
+    url("IRANSansWeb(FaNum)_Light.ttf") format("opentype"),
+    url("IRANSansWeb(FaNum)_Medium.ttf") format("opentype"),
+    url("IRANSansWeb(FaNum)_UltraLight.ttf") format("opentype");
+}
+
+* {
+    font-family: iranSans, 'sans-serif';
+    direction: rtl;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    background-color: lightblue;
+}
+.containerPost {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#show-post {
+    transition: 1s ease-in;
+    top: -30rem;
+    margin: 1rem auto;
+    border-radius: 20px;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+}
+
+#show-post .show {
+    background-color: transparent;
+    margin-top: 3rem;
+    display: flex;
+    flex-flow: column;
+}
+
+#show-post .show a {
+    background-color: black;
+    text-align: center;
+    border: 2px solid black;
+    color: #dddddd;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 1rem;
+    margin: 1rem;
+}
+
